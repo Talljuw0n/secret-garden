@@ -1,0 +1,23 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+supabase==2.0.3
+
+# HTTP client (only if you're using it directly)
+httpx==0.24.1
+
+# Data validation
+pydantic[email]==2.5.0
+
+# Templates
+jinja2==3.1.2
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Optional: Email services
+# sendgrid==6.11.0
+# boto3==1.29.7
