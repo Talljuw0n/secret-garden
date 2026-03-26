@@ -1,39 +1,37 @@
-document.addEventListener('DOMContentLoaded', function () {
-
+function initNav() {
     var toggle = document.getElementById('mobileToggle');
     var navLinks = document.getElementById('navLinks');
 
-    if (toggle && navLinks) {
-        toggle.addEventListener('click', function (e) {
-            e.stopPropagation();
-            var isOpen = navLinks.classList.contains('active');
-            navLinks.classList.toggle('active', !isOpen);
-            toggle.classList.toggle('active', !isOpen);
-            toggle.setAttribute('aria-expanded', String(!isOpen));
-        });
+    if (!toggle || !navLinks) return;
 
-        navLinks.querySelectorAll('a').forEach(function (link) {
-            link.addEventListener('click', function () {
-                navLinks.classList.remove('active');
-                toggle.classList.remove('active');
-                toggle.setAttribute('aria-expanded', 'false');
-            });
-        });
+    toggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = navLinks.classList.contains('active');
+        navLinks.classList.toggle('active', !isOpen);
+        toggle.classList.toggle('active', !isOpen);
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+    });
 
-        document.addEventListener('click', function (e) {
-            if (
-                navLinks.classList.contains('active') &&
-                !navLinks.contains(e.target) &&
-                !toggle.contains(e.target)
-            ) {
-                navLinks.classList.remove('active');
-                toggle.classList.remove('active');
-                toggle.setAttribute('aria-expanded', 'false');
-            }
+    navLinks.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+            navLinks.classList.remove('active');
+            toggle.classList.remove('active');
+            toggle.setAttribute('aria-expanded', 'false');
         });
-    }
+    });
 
-    // Navbar shadow on scroll
+    document.addEventListener('click', function (e) {
+        if (
+            navLinks.classList.contains('active') &&
+            !navLinks.contains(e.target) &&
+            !toggle.contains(e.target)
+        ) {
+            navLinks.classList.remove('active');
+            toggle.classList.remove('active');
+            toggle.setAttribute('aria-expanded', 'false');
+        }
+    });
+
     var navbar = document.querySelector('.navbar');
     if (navbar) {
         window.addEventListener('scroll', function () {
@@ -42,12 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 : 'none';
         });
     }
+}
 
-    // Gallery hover
-    document.querySelectorAll('.gallery-item').forEach(function (item) {
-        item.addEventListener('mouseenter', function () { this.style.zIndex = '10'; });
-        item.addEventListener('mouseleave', function () { this.style.zIndex = '1'; });
-    });
-
-    window.scrollTo(0, 0);
-});
+// Run immediately if DOM is ready, otherwise wait for it
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initNav);
+} else {
+    initNav();
+}
