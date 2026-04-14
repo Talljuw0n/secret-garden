@@ -33,13 +33,14 @@ const leadersData = {
         <p>He also believes that in equipping young men to become and function as all they have been created to be, there is a need for them to have a clear concise mental picture of the future they want to feature in. 
         He’s also the author of Process: The Pathway to Greatness.</p>`
     },
-    // 5: {
-    //     name: "Temitayo Esther Mofaderera Taiwo",
-    //     title: "...",
-    //     image: "/static/images/leaders/leader-5.jpg",
-    //     bio: `Paediatric Nurse 
-    //     <p>Public Governor Kings College Hospital NHS Trust.</P>`
-    // },
+    5: {
+        name: "Victoria Ajayi",
+        // title: "...",
+        image: "/static/images/leaders/victoria.jpg",
+        bio: `Victoria Ajayi is an entrepreneur in the restaurant and food manufacturing industry. She is the co-founder of Chow Noodle Bar, a fast-growing Lagos-based brand known for delivering high-quality, Asian-inspired meals with a focus on speed, flavor, and customer experience.
+        Beyond business, Victoria serves as President of the Academy for Women Entrepreneurs Alumni Association, a White House initiative and she is passionate about empowering women and young entrepreneurs through access, visibility, and economic opportunity.
+        A passionate lover of Christ and a certified “ABBA’s Girl,” she also serves as Head of Global Retreats for The Secret Garden Global, where she coordinates transformative experiences that inspire spiritual growth and purposeful living.`
+    },
     6: {
         name: "Olajumoke Olusoji",
         // title: "Inter",
@@ -77,13 +78,12 @@ const leadersData = {
         In the Secret Garden, I serve as a leader in the Love Team.</p>`
     },
     10: {
-        name: "Molawa Quadri",
+        name: "Jolaade Adesina",
         // title: "Elder",
-        image: "/static/images/leaders/Molawa Quadri .JPEG",
-        bio: `Molawa Quadri is a creative entrepreneur and event curator with a passion for designing memorable cultural and entertainment experiences. 
-        She specializes in developing immersive concepts that blend lifestyle, music, fashion, and storytelling to create high-value experiences for discerning audiences.
-        <p>In addition to her work in experiential events, she collaborates with independent fashion designers through e-commerce partnerships that expand their visibility and market reach. 
-        Molawa brings together creativity, strategic thinking, and cultural insight to craft experiences that leave lasting impressions.</p>`
+        image: "/static/images/leaders/jolaade.jpg",
+        bio: `Jolaade Adesina is a nurse and life coach devoted to helping women experience transformation from the inside out. With a professional foundation in healthcare and almost 10 years on the frontline and managerial front, she has cared for people and led her team in providing quality care to her patients.
+        Beyond the clinical space, she is the founder of Live Up Queen, a movement dedicated to helping women break free from performance-based living and step into a life rooted in truth, identity, and full expression. Her work bridges both worlds: the structure and compassion of nursing, and the depth and liberation of identity transformation.
+        <p>Jolaade supports women who look like they have it together on the outside but feel disconnected within, guiding them to unlearn limiting beliefs, reconnect with who they truly are, and build lives that feel aligned, powerful, and whole.</p>`
     },
     11: {
         name: "Henrietta Kanu",
@@ -92,12 +92,25 @@ const leadersData = {
         bio: `Henrietta Kanu is a brand and event management professional with over five years of experience coordinating impactful initiatives across corporate and government sectors. She is known for her strength in strategic planning, administration, and program coordination, supporting projects that bring people, vision, and purpose together.
         She is also engaged within the energy sector while pursuing entrepreneurial ventures that reflect her commitment to innovation, excellence, and meaningful impact.`
     },
-    // 12: {
-    //     name: "Taiwo Durodola-Tunde",
-    //     title: "Children's Pastor",
-    //     image: "/static/images/leaders/leader-12.jpg",
-    //     bio: "Cybersecurity professional, extremely passionate about strong family life and relationships."
-    // },
+    12: {
+        name: "Dr Olori Boye-Ajayi",
+        // title: "Children's Pastor",
+        image: "/static/images/leaders/OlorI.jpeg",
+        bio: `Dr. Olori Boye-Ajayi is an African trade and development strategist and policy leader with over 15 years of 
+        experience mobilizing capital, aligning multi-country stakeholders, and delivering impact across Africa. She is 
+        an alumna of the University of Oxford and the Blavatnik School of Government, and serves on the AfCFTA 
+        Trade and Industrial Development Advisory Council as well as a MANSA Champion with Afreximbank. 
+        As Founder of Borderless Trade & Investments, she has structured €500M+ in development funds, raised 
+        $3M+ for women-led SMEs, and facilitated market access for 100,000+ entrepreneurs.  
+        <p><strong>Some Recognition and Accolades</strong></p>
+        <p>• Recognized as one of 2026 <strong>100 Inspiring and Award-Winning Amazons in Nigeria</strong></P>
+        <p>• Named among the <strong>Global Top 100 Most Influential People of African Descent</strong>, 2024</p>
+        <p>• Recognized as one of the <strong>Top 50 Inspiring Women in Nigeria</strong>, 2024 </p> 
+        
+        <p>Dr. Boye-Ajayi also serves as the Servant Leader of The Secret Garden Global (TSG), an 
+        interdenominational ministry dedicated to raising disciples of Christ and equipping believers for true 
+        dominion through initiatives across Nigeria, the UK, Ethiopia, the USA, and beyond. </p>`
+    },
     13: {
         name: "Adejumoke Fafure",
         // title: "Music Director",
