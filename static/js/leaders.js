@@ -133,7 +133,7 @@ const leadersData = {
     16: {
         name: "Oluwadamilola GodsGift-Omokaro",
         // title: "Counselor",
-        image: "/static/images/leaders/GodsGift Omokaro.jpg",
+        image: "/static/images/leaders/GodsGift Omokaro .jpg",
         bio: `Oluwadamilola serves in the ministry with a heart for hospitality, order, and service. 
         Her journey in service began after she gave her life to Christ in 2009 and deepened significantly in 2015 when she had the privilege of serving her bishop and ministers from different parts of the world. Those years shaped her understanding of faithful service and the importance of supporting the work of God with excellence.Beyond practical ministry, Oluwadamilola carries a deep passion for strengthening families, relationships, and mentoring young people. She believes in encouraging the next generation with godly wisdom, helping them navigate life with clarity and purpose.
         <p>In 2025, she authored two books. The Power of Marrying a Good Man, speaks to singles, engaged couples, and married people alike, offering insight into the beauty and responsibility of healthy relationships. Her second book, When the Silence Breaks, is a short story centered on healing from past trauma.
