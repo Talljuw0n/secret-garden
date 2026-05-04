@@ -131,7 +131,7 @@ const leadersData = {
         bio: "Oluwapelumi Adebanke Adesanaya is an experienced professional in Business Administration, Communication, and Nigerian Real Estate Investment. She currently serves as a Senior Administrator within a leading NHS service supporting children with neurodivergent disorders in the United Kingdom and also works as a Nigerian Real Estate Investment Consultant. She is passionate about faith , family and serving others wholeheartedly. Married and blessed with a beautiful boy ."
     },
     16: {
-        name: "Oluwadamilola GodsGift-Omokaro",
+        name: "GodsGift-Omokaro",
         // title: "Counselor",
         image: "/static/images/leaders/GodsGift Omokaro .jpg",
         bio: `Oluwadamilola serves in the ministry with a heart for hospitality, order, and service. 
