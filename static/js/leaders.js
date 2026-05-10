@@ -131,14 +131,24 @@ const leadersData = {
         bio: "Oluwapelumi Adebanke Adesanaya is an experienced professional in Business Administration, Communication, and Nigerian Real Estate Investment. She currently serves as a Senior Administrator within a leading NHS service supporting children with neurodivergent disorders in the United Kingdom and also works as a Nigerian Real Estate Investment Consultant. She is passionate about faith , family and serving others wholeheartedly. Married and blessed with a beautiful boy ."
     },
     16: {
-        name: "GodsGift-Omokaro",
+        name: " Oluwadamilola GodsGift-Omokaro",
         // title: "Counselor",
-        image: "/static/images/leaders/GodsGift Omokaro .jpg",
+        image: "/static/images/leaders/dami.jpeg",
         bio: `Oluwadamilola serves in the ministry with a heart for hospitality, order, and service. 
         Her journey in service began after she gave her life to Christ in 2009 and deepened significantly in 2015 when she had the privilege of serving her bishop and ministers from different parts of the world. Those years shaped her understanding of faithful service and the importance of supporting the work of God with excellence.Beyond practical ministry, Oluwadamilola carries a deep passion for strengthening families, relationships, and mentoring young people. She believes in encouraging the next generation with godly wisdom, helping them navigate life with clarity and purpose.
         <p>In 2025, she authored two books. The Power of Marrying a Good Man, speaks to singles, engaged couples, and married people alike, offering insight into the beauty and responsibility of healthy relationships. Her second book, When the Silence Breaks, is a short story centered on healing from past trauma.
         The testimony of one reader captured the heart behind her writing: “Every page and every line is healing to me… I can literally feel myself breaking free.” Moments like this continue to inspire her to write and share messages that bring healing, God-perspective, and freedom.
         She is a wife and mother of two, deeply grateful for the mercy of God upon her life and family. In this season, she enjoys spending time outdoors with her children, especially taking long walks, reflecting, and praying.</p>`
+    },
+    17: {
+        name: "GodsGift-Omokaro",
+        // title: "Counselor",
+        image: "/static/images/leaders/GodsGift Omokaro .jpg",
+        bio: `GodsGift Omokaro is a leader, mentor, educator, and saxophonist whose life is defined by service, compassion, and a deep desire to make meaningful impact. Over the years, he has poured into the lives of young people and communities through mentorship, guidance, and practical leadership, helping others grow with clarity, confidence, and purpose.
+        <p>With more than a decade of performance experience across Africa and Europe, he is recognised for the depth and distinctiveness of his sound, one that carries hope, reflects heaven’s beauty, and resonates across generations and nations. Through his saxophone, he brings healing, joy, upliftment, and transformation, leaving a lasting impression long after the sound has faded.
+        Through this gift, he has blessed thousands of souls with a sound that comforts, restores, and inspires.
+        Beyond music, he works within a CQC-related environment, leading on safeguarding, compliance, and operational management. He also serves as one of the UK retreat coordinators for The Secret Garden Global,
+        At the heart of all he does is a commitment to leave people strengthened, encouraged, and reminded of hope in God</p>`
     }
 };
 
