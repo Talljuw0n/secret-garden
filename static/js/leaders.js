@@ -149,6 +149,16 @@ const leadersData = {
         Through this gift, he has blessed thousands of souls with a sound that comforts, restores, and inspires.
         Beyond music, he works within a CQC-related environment, leading on safeguarding, compliance, and operational management. He also serves as one of the UK retreat coordinators for The Secret Garden Global,
         At the heart of all he does is a commitment to leave people strengthened, encouraged, and reminded of hope in God</p>`
+    },
+    18: {
+        name: "Abimbola Lawal",
+        // title: "Counselor",
+        image: "/static/images/leaders/Abimbola Lawal.jpeg",
+        bio: `Abimbola Lawal is a purpose-driven professional passionate about service, growth, and empowering others. She values integrity, meaningful relationships, and making a positive impact through excellence and responsibility.
+        With experience across the UK hospitality, healthcare, and public sectors, She has built strong expertise in people management, organisational effectiveness, and service delivery. She is committed to developing high-performing teams, supporting employee growth, and creating environments where people can thrive.
+        <p>She currently serves as a Performance Manager within the UK Government, overseeing performance and service delivery to ensure public funds are administered effectively for eligible UK residents. She also champions work-life balance and supports her team in achieving success while maintaining healthy personal lives.
+        Abimbola is passionate about leadership, prayer, and organisational effectiveness, and believes in persistent prayer, faith, and encouragement. She is committed to applying global best practices that create lasting value for organisations and the people they serve.
+        Academically, Abimbola holds a Master's degree with Distinction in Human Resource Management and a First-Class Bachelor's degree in Business Management. She is an Associate Member of the Chartered Institute of Personnel and Development (CIPD) and the Chartered Management Institute (CMI), reflecting her commitment to continuous learning and professional excellence</p>`
     }
 };
 
